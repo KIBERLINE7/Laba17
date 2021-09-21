@@ -9,6 +9,9 @@ void zd1() {
 	int N, K, L;
 
 	cin >> N >> K >> L;
+	
+	K -= 1;
+	L -= 1;
 
 	vector<int> A(N);
 
